@@ -1,14 +1,14 @@
-import './App.css';
-import Header from './components/nav/Header';
+import Header from './components/Header/Header';
+import AppRouter from "./components/AppRouter/AppRouter.tsx";
 
 function App() {
 
-  return (
-    <>
-      app
-      <Header />
-    </>
-  )
+    return (
+        <>
+            <Header/>
+            <AppRouter/>
+        </>
+    )
 }
 
 export default App
