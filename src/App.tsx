@@ -1,12 +1,12 @@
-import './App.css'
-import Account from './pages/Account'
+import './App.css';
+import Header from './components/nav/Header';
 
 function App() {
 
   return (
     <>
-    Vite App
-    <Account/>
+      app
+      <Header />
     </>
   )
 }
