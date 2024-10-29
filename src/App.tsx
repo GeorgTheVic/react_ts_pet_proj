@@ -1,12 +1,13 @@
 import './App.css';
+import AppRouter from './components/AppRouter';
 import Header from './components/nav/Header';
 
 function App() {
 
   return (
     <>
-      app
       <Header />
+      <AppRouter />
     </>
   )
 }

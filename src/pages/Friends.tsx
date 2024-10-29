@@ -1,7 +1,7 @@
 const Friends = () => {
     return (
         <>
-            Friends
+            <h1>Friends</h1> 
         </>
     )
 }
