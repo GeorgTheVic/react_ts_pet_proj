@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom"
-import Account from "../pages/Account"
-import Tasks from "../pages/Tasks"
-import Friends from "../pages/Friends"
-import Budget from "../pages/Budget"
+import Account from "../../pages/Account/Account"
+import Tasks from "../../pages/Tasks/Tasks"
+import Friends from "../../pages/Friends/Friends"
+import Budget from "../../pages/Budget/Budget"
 
 const AppRouter = () => {
     return (

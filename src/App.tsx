@@ -1,6 +1,6 @@
-import './App.css';
-import AppRouter from './components/AppRouter';
-import Header from './components/nav/Header';
+import './assets/styles/index.scss'
+import AppRouter from './components/AppRouter/AppRouter';
+import Header from './components/Header/Header';
 
 function App() {
 
