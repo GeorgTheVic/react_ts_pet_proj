@@ -1,5 +1,18 @@
 .header {
     display: inline-flex;
-    gap: 10px;
-    
+    justify-content: space-between;
+    margin: 30px auto;
+    width: 40%;
+    padding: 20px 80px;
+
+    border: 2px #000 solid;
+    border-radius: 35px;
+
+    &__link {
+        font-size: 20px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
 }
